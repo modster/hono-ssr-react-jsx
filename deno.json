@@ -1,0 +1,17 @@
+{
+  "name": "@scope/stream",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "imports": {
+    "@hono/react-renderer": "npm:@hono/react-renderer@^0.3.0",
+    "@types/react": "npm:@types/react@^19.0.10",
+    "@types/react-dom": "npm:@types/react-dom@^19.0.4",
+    "hono": "npm:hono@^4.7.2",
+    "react": "npm:react@^19.0.0",
+    "react-dom": "npm:react-dom@^19.0.0"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}
