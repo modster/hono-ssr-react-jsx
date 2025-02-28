@@ -1,4 +1,11 @@
-// Import all packages from the same source to avoid version conflicts
+/**
+ * This is a simple example of how to do server side rendered streaming with Hono and
+ * React.
+ *
+ * Tip: Import all packages from the same source to avoid version conflicts.
+ * For example, if you import jsr:hono and npm:react, you will encounter
+ * headaches.
+ */
 import { Hono } from "hono";
 import { reactRenderer } from "@hono/react-renderer";
 import { logger } from "hono/logger";
